@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="MyCoffee">
+  <DataContextMoniker Name="/MyCoffeeDataContext" />
+  <nestedChildShapes>
+    <classShape Id="28015749-1f12-4667-911a-8dce4b0f9ff4" absoluteBounds="3.375, 0.875, 2, 1.1677168782552083">
+      <DataClassMoniker Name="/MyCoffeeDataContext/Context" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cf18cf18-6183-46d6-812f-5da6e06248e7" absoluteBounds="3.3900000000000006, 1.335, 1.9700000000000002, 0.60771687825520826" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fa2d38d5-e797-4987-9e0e-318b17ab0e41" absoluteBounds="5.875, 1.875, 2, 1.5373050944010416">
+      <DataClassMoniker Name="/MyCoffeeDataContext/Users" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d7e1da22-cfd7-43b6-b3c3-54273b8d047d" absoluteBounds="5.8900000000000006, 2.335, 1.9700000000000002, 0.97730509440104174" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="23236f62-4f29-40a0-844a-0683975b5c60" absoluteBounds="1.125, 3.125, 2, 1.7220992024739581">
+      <DataClassMoniker Name="/MyCoffeeDataContext/Goods" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a8e9bd79-3424-49a4-b70f-1a5e6eaa06cc" absoluteBounds="1.1400000000000001, 3.585, 1.9700000000000002, 1.1620992024739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0bd82993-498e-4f6a-9abf-03e96c6f8082" absoluteBounds="3.5, 2.625, 2, 2.0916874186197916">
+      <DataClassMoniker Name="/MyCoffeeDataContext/UserInfor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="252a2f26-6f72-4b6e-b85d-da33bc318a9e" absoluteBounds="3.515, 3.085, 1.9700000000000002, 1.5316874186197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0c1b3e99-9732-4834-a913-4a527bbee6c9" absoluteBounds="1.25, 0.875, 2, 1.9068933105468751">
+      <DataClassMoniker Name="/MyCoffeeDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5e0646d6-f0fb-4bbe-a6bf-a6f7ac58d1a3" absoluteBounds="1.2650000000000001, 1.335, 1.9700000000000002, 1.346893310546875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

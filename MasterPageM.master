@@ -1,0 +1,117 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageM.master.cs" Inherits="MasterPageM" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style1.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript">
+      $(function () {
+          $("#lava_menu").lavaLamp({
+              fx: "backout",
+              speed: 700
+          });
+      });
+  </script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#slider').nivoSlider();
+        });
+    </script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            font-size: xx-large;
+        }
+        .erweima {
+            position: relative;
+            top: -12px;
+            left: -336px;
+            height: 62px;
+            width: 62px;
+        }
+        .copy{
+            color: #000000;
+            position: relative;
+            top: -60px;
+            left: 189px;
+            width: 609px;
+         
+       }
+        .login {
+            background:transparent;
+            width:82px;
+            margin-left:35px;
+            margin-top:5px;
+            border:none;
+            font-size:120%
+        }
+    </style>
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+        <div id="main">
+        <header>
+	<div id="menubar">
+      <ul class="lavaLampWithImage" id="lava_menu">
+        <li class="current"><a href="MemberPage.aspx">首页</a></li>
+        <li><a href="DictionaryMembers.aspx">咖啡事典</a></li>
+        <li><a href="ProductMember.aspx">产品中心</a></li>
+        <li><a href="AboutMember.aspx">关于我们</a></li>
+        <li><a href="ContactMembers.aspx">联系我们</a></li>
+        <li><a href="Shopping.aspx">购物记录</a></li>
+        <li><a href="RevisePersonal.aspx">个性重置</a></li>
+        <li><input type="button" id="login" runat="server" onserverclick="login_ServerClick" class="login" value=""  /></li>
+        <li><a href="UserLogin.aspx">退出登录</a></li>
+      </ul>
+	</div><!--close menubar-->	    
+       <div id="site_content">        	  
+	  <div id="header"> 
+        <div id="header_name"> 	  
+          <h1 style="text-align: center">
+              <img alt="" src="" style=" background-image: url('images/logo.png'); height: 42px; width: 42px;" /> Second<span class="auto-style1"> Cup</span></h1>
+        </div><!--close header_name-->	
+        <div id="header_slogan"> 		
+	      <div style="height: 38px;  font-size: x-large; position:relative; top: 17px; left: 0px; font-style: italic;">Welcome！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              <div style="position: relative; width: 167px; background-color: inherit; top: -29px; left: 318px; height: 61px; font-size: x-large; font-style: italic;">
+                <asp:ScriptManager ID="ScriptManager1" runat="server">
+                </asp:ScriptManager>
+                <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                    <ContentTemplate>
+                        
+                        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                        <asp:Timer ID="Timer1" runat="server" Interval="1000">
+                        </asp:Timer>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+            </div></div>
+		 </div><!--close header_slogan-->	
+      </div><!--close header-->	
+         </div>	
+        </header>
+
+        <section>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+        </section>
+        
+        <footer>
+            <div id="footer_content">
+          <img alt="" class="erweima" src="" style="background-image: url('images/erweima.jpg'); top: -17px; left: -295px;" /> <div class="copy">COPYRIGHT (C) 2017 | 专业：软件工程 | 学号：2015020800150 | 姓名：严汝华 | 版权所有</div></div><!--close footer_content-->	
+        </footer>
+    </div><!--close main-->
+    </form>
+</body>
+</html>

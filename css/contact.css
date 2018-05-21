@@ -1,0 +1,147 @@
+﻿body {
+}
+/*----start-wrap-----*/
+.wrap{
+	width:80%;
+	margin:0 auto;
+	transition:all .2s linear;
+	-moz-transition:all .2s linear;/* firefox */
+	-webkit-transition:all .2s linear; /* safari and chrome */
+	-o-transition:all .2s linear; /* opera */
+	-ms-transition:all .2s linear;
+    height: 469px;
+}
+
+/************* Contact ********/
+.contact_desc{
+	padding:50px 0;
+}
+.contact_desc h2{
+	color:#82592D;
+	margin:5px 0 15px 0;
+	font-size:2em;
+	text-transform:uppercase;
+    font-family: 'caviar_dreamsregular';
+}
+.contact-form{
+	position:relative;
+	padding-bottom:10px;
+    top: 10px;
+    left: -24px;
+    height: 271px;
+}
+.left_form{
+	float:left;
+	width:48%;
+}
+.right_form{
+	float:left;
+	width:48%;
+	margin-left:3.8%;
+}
+.contact-form div{
+	padding:5px 0;
+    height: 48px;
+    width: 383px;
+}
+.contact-form span{
+	display:block;
+	font-size:0.85em;
+	font-family: 'Open Sans', sans-serif;
+	color:#82592D;
+	padding-bottom:5px;
+}
+.contact-form input[type="text"],.contact-form textarea{
+		    padding:10px;
+			display:block;
+			width:95%;
+			background:#fcfcfc;
+			border:1px solid #F5E7D9;
+			outline:none;
+			color:#693700;
+			font-size:1em;
+			font-family:Arial, Helvetica, sans-serif;			
+			-webkit-appearance:none;
+			-webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+}
+.contact-form input[type="text"]:focus,.contact-form textarea:focus{
+	border:1px solid #E4CFBA;
+}
+.contact-form textarea{
+		resize:none;
+		height:119px;		
+}
+.myButton{
+    background:#82592D;
+	color:#DBB25F;
+	font-size:1em;
+	padding:10px 20px;
+	border:none;
+	text-decoration: none;
+	outline: 0;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+    display:inline-block;
+    font-family: 'Open Sans', sans-serif;
+    cursor:pointer;
+    text-transform:uppercase;
+    -webkit-appearance:none;
+    float:right;
+}
+.myButton:hover{
+		background:#DBB25F;
+		color:#FFF;
+}
+.company_address{
+	 float:left;
+	 width:24%;
+    height: 335px;
+}
+.company_address p{
+	color:#82592D;
+	font-family: 'Open Sans', sans-serif;
+	font-size:0.85em;
+	padding:5px 0;
+}
+.company_address p span a{
+	text-decoration:underline;
+	color:#693700;
+}
+.company_address p span a:hover{
+	text-decoration:none;
+}
+.contact_info{
+	float:right;
+	width:70%;
+	margin-left:5%;
+}
+
+#section {
+    width: 1000px;
+    height: 795px;
+    position: relative;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    color: #000;
+    overflow: hidden;
+    background: transparent url(../images/transparent.png) repeat;
+    top: -17px;
+    left: 0px;
+}
+h1, h2, h3, h4, h5, h6 
+{ font: bold 175% arial, sans-serif;
+  color: #933A00;
+  letter-spacing: -1px;
+  margin: 0 0 5px 0;
+  padding: 15px 0 0 0;
+    height: 51px;
+    width: 409px;
+    top: 21px;
+    left: 0px;
+}
